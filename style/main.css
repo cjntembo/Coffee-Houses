@@ -1,0 +1,17 @@
+.pageHeader {
+    font-size: large;
+    text-align: center;
+    margin: 25px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
+.shop {
+    flex-basis: 25%;
+    border: 10px double rgb(20, 40, 220);
+    padding: 1em;
+    margin: 0 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
